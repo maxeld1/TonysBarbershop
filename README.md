@@ -35,6 +35,34 @@ npm run dev
 npm run build
 ```
 
+## Deploy to GitHub Pages
+
+This project is configured for a GitHub Pages project site at:
+
+- `https://maxeld1.github.io/TonysBarbershop/`
+
+Deploy steps:
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Commit and push your repo to GitHub under the repository name `TonysBarbershop`.
+
+3. Deploy:
+
+```bash
+npm run deploy
+```
+
+4. In GitHub, go to `Settings` -> `Pages` and set the source to the `gh-pages` branch, folder `/ (root)`.
+
+If the GitHub repository name is not `TonysBarbershop`, update the `base` value in:
+
+- [vite.config.js](/Users/maxeldabbas/WebstormProjects/TonysBarbershop/vite.config.js)
+
 ## Where to edit content
 
 Most homepage copy and business information live in:
